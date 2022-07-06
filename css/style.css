@@ -1,21 +1,21 @@
-body{
+body {
     margin: 0;
     box-sizing: border-box;
 }
 
 /* banner start */
-#banner-section{
+#banner-section {
     position: relative;
     height: 600px;
     top: 0;
     left: 0;
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.932)), url('./images/donation3.jpg');
-    background-repeat:no-repeat;
-    background-position:center;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.932)), url("../images/donation3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
-.banner-title{
+.banner-title {
     position: absolute;
     top: 120px;
     left: 260px;
@@ -24,57 +24,65 @@ body{
     text-align: center;
 }
 
-.banner-text h1{
+.banner-text h1 {
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-size: 50px;
     line-height: 60px;
     text-align: center;
 }
-.banner-text h4{
+
+.banner-text h4 {
     color: rgb(233, 233, 233);
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 28px;
     text-align: center;
 }
-.banner-button{
+
+.banner-button {
     border-radius: 5px;
     margin: 30px 320px;
     padding: 15px 20px;
     background-color: #FF5959;
 }
-.banner-button a{
+
+.banner-button a {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     color: #ffffff;
 }
+
 /* banner end */
 
 /* donate today start */
-#donate-today{
+#donate-today {
     position: relative;
     height: 650px;
 }
-.donate-today-contents{
+
+.donate-today-contents {
     position: absolute;
     top: 85px;
     left: 250px;
     padding: 5px 30px;
     text-align: center;
 }
-.donate-today-title{
+
+.donate-today-title {
     margin-bottom: 30px;
 }
-.donate-today-text h1{
+
+.donate-today-text h1 {
     font-family: 'Inter', sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 54.46px;
     /* text-align:center; */
 }
-.donate-today-text h4{
+
+.donate-today-text h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -82,17 +90,19 @@ body{
     margin-bottom: 20px;
 }
 
-.donate-today-amounts-selections{
+.donate-today-amounts-selections {
     display: flex;
     justify-content: space-evenly;
     padding: 30px 0;
     font-family: 'Inter', sans-serif;
 }
-.donate-today-amount{
+
+.donate-today-amount {
     padding: 30px 30px;
     background-color: rgba(243, 243, 245, 0.733);
 }
-.donate-today-amount-selected{
+
+.donate-today-amount-selected {
     background-color: #FFEEEE;
     border: 2px solid #FF5959;
     color: #FF5959;
@@ -100,16 +110,18 @@ body{
     padding: 30px 30px;
 }
 
-.donate-today-other-amount-text h4{
+.donate-today-other-amount-text h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     padding: 10px 0px;
     color: grey;
 }
-.donate-today-other-amount-text p{
+
+.donate-today-other-amount-text p {
     position: relative;
 }
-.donate-today-other-amount-text p:after{
+
+.donate-today-other-amount-text p:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -120,13 +132,14 @@ body{
     z-index: 1;
 }
 
-.donate-today-button{
+.donate-today-button {
     border-radius: 5px;
     margin: 30px 320px;
     padding: 15px 20px;
     background-color: #FF5959;
 }
-.donate-today-button a{
+
+.donate-today-button a {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
