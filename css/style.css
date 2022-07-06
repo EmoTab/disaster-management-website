@@ -9,7 +9,7 @@ body{
     height: 600px;
     top: 0;
     left: 0;
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.932)), url('/images/donation3.jpg');
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.932)), url('./images/donation3.jpg');
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
@@ -59,9 +59,8 @@ body{
 }
 .donate-today-contents{
     position: absolute;
-    top: 90px;
+    top: 85px;
     left: 250px;
-    height: 500px;
     padding: 5px 30px;
     text-align: center;
 }
@@ -90,22 +89,35 @@ body{
     font-family: 'Inter', sans-serif;
 }
 .donate-today-amount{
-    padding: 10px 30px;
+    padding: 30px 30px;
+    background-color: rgba(243, 243, 245, 0.733);
 }
 .donate-today-amount-selected{
     background-color: #FFEEEE;
     border: 2px solid #FF5959;
     color: #FF5959;
     border-radius: 7px;
-    padding: 10px 30px;
+    padding: 30px 30px;
 }
 
 .donate-today-other-amount-text h4{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     padding: 10px 0px;
-    text-decoration: underline;
     color: grey;
+}
+.donate-today-other-amount-text p{
+    position: relative;
+}
+.donate-today-other-amount-text p:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid grey;
+    z-index: 1;
 }
 
 .donate-today-button{
